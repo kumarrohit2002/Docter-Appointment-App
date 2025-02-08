@@ -10,6 +10,7 @@ const db=require("./src/config/database");
 db();
 
 
+
 //add all routes
 const routes =require('./src/routes/AllRoutes');
 app.use('/api',routes);
